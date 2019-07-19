@@ -1,6 +1,6 @@
 package com.telran.rentcompamyservice.service;
 
-import com.telran.rentcompamyservice.entities.Response;
+import com.telran.rentcompamyservice.dto.Response;
 import com.telran.rentcompamyservice.entities.Order;
 import com.telran.rentcompamyservice.entities.User;
 
@@ -20,6 +20,8 @@ public interface IRentCompanyService {
     Response getAllCategories();
     Response getListBranches();
     Response calculatePriceOrder();
+
+
 
 
 }
