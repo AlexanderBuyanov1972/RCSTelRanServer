@@ -14,6 +14,9 @@ public class RCService {
 
     public Response calculatePrice(Request request){
         response = new Response().setCode(goodCode).setTimestamp(currentDate);
+        System.out.println("request.getName1()-------------------->" + request.getName1());
+        System.out.println("request.getName2()-------------------->" + request.getName2());
+        System.out.println("request.getName3()-------------------->" + request.getName3());
         return response.setContent(request.getName1() + request.getName2() + request.getName3())
                 .setMessage("OK");
     }
