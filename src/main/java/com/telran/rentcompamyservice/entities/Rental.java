@@ -3,8 +3,8 @@ package com.telran.rentcompamyservice.entities;
 import java.time.LocalDate;
 import javax.persistence.*;
 
-@Entity
-@Table(name="rentals")
+//@Entity
+//@Table(name="rentals")
 public class Rental {
     @Id
     Integer rental_sid;

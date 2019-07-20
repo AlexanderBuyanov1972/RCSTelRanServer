@@ -1,7 +1,7 @@
 package com.telran.rentcompamyservice.entities;
 import javax.persistence.*;
-@Entity
-@Table(name="vehicles")
+//@Entity
+//@Table(name="vehicles")
 public class Vehicle {
     @Id
     Integer vehicle_sid;

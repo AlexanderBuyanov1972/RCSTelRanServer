@@ -2,8 +2,8 @@ package com.telran.rentcompamyservice.entities;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name = "addresses")
+//@Entity
+//@Table(name = "addresses")
 public class Address {
     @Id
     Integer address_sid;
