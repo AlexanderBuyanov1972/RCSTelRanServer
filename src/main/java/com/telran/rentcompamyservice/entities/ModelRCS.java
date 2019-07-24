@@ -5,9 +5,9 @@ import javax.persistence.*;
 @Entity
 @Table(name="modelsrcs")
 public class ModelRCS {
-    String car_group;           // "Car Group": "B",
-    String sipp_code;           // "SIPP Code": "MBMR",
-    Integer group_sig;          // "Group sig": 10,
+    private String car_group;           // "Car Group": "B",
+    private String sipp_code;           // "SIPP Code": "MBMR",
+    private Integer group_sig;          // "Group sig": 10,
     Integer seats;              // "Seats": 4,
     @Id
     String vehicle_type;        // "Vehicle Type": "Suzuki Alto Man.",

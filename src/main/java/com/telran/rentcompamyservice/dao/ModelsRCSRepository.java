@@ -1,8 +1,8 @@
 package com.telran.rentcompamyservice.dao;
 
 import com.telran.rentcompamyservice.entities.ModelRCS;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface ModelsRCSRepository extends JpaRepository<ModelRCS, String> {
+public interface ModelsRCSRepository extends CrudRepository<ModelRCS, String> {
 
 }
