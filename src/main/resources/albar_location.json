@@ -2,37 +2,37 @@
   "Locations": [
     {
       "Afula": {
-        "address": "70 Menachem Begin Street",
+        "address": "Menachem Begin Street 70",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97246204500"
       },
       "Ashdod": {
-        "address": "7 Haorgim Street",
+        "address": "Haorgim Street 7",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97286228815"
       },
       "Beer-Sheva": {
-        "address": "18 Itzhak Nafha Street",
+        "address": "Itzhak Nafha Street 18",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97286311163"
       },
       "Beit-Shemesh": {
-        "address": "1 Nahar Hayarden Street",
+        "address": "Nahar Hayarden Street 1",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97228010047"
       },
       "Bnei-Brak-Kahanman": {
-        "address": "106 Kahanman Street",
+        "address": "Kahanman Street 106",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97236207300"
       },
       "Bnei-Brak-Mivtza": {
-        "address": "64 Mivtza Kadesh Street",
+        "address": "Mivtza Kadesh Street 64 ",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97236160700"
       },
       "Eilat": {
-        "address": "3 Sheshet Hayamim Street",
+        "address": "Sheshet Hayamim Street 3",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97286998877"
       },
@@ -42,87 +42,92 @@
         "phone": "+97286239300"
       },
       "El'ad": {
-        "address": "10 Rabbi Shimon Ben Shetah",
+        "address": "Rabbi Shimon Ben Shetah 10",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97239501500"
       },
       "Haifa": {
-        "address": "27 Haashlag Street",
+        "address": "Haashlag Street 27",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97248409333"
       },
       "Herzeliya": {
-        "address": "9 Hamenofim Street",
+        "address": "Hamenofim Street 9",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97297666800"
       },
       "Jerusalem-King-Daviv": {
-        "address": "19 King David Street",
+        "address": "King David Street 19",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97225001800"
       },
       "Jerusalem-Shamgar": {
-        "address": "21 Shamgar Street",
+        "address": "Shamgar Street 21",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97226339666"
       },
       "Jerusalem-Moshe-Baran": {
-        "address": "26 Moshe Baram Street",
+        "address": "Moshe Baram Street 26",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97226482896"
       },
       "Kfar-Saba": {
-        "address": "17 Ha'Taas Street",
+        "address": "Ha'Taas Street 17",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97297884888"
       },
       "Kiryat-Shmone": {
-        "address": "1 Hayarden Street",
+        "address": "Hayarden Street 1",
         "openhours": "Sun-Thu 08:00-17:30, Fri 08:00-13:00",
         "phone": "+97246665959"
       },
       "Nes-Tziona": {
-        "address": "10 Hapatish Street",
+        "address": "Hapatish Street 10",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97286991340"
       },
       "Natanya": {
-        "address": "1 Ussishkin Street",
+        "address": "Ussishkin Street 1",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97298612000"
       },
       "Netivot": {
-        "address": "13 Habonim Street",
+        "address": "Habonim Street 13",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97286888711"
       },
       "Petach-Tikva": {
-        "address": "82 Jabotinski Street",
+        "address": "Jabotinski Street 82",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97236331440"
       },
       "Rehovot": {
-        "address": "96 Herzl Street",
+        "address": "Herzl Street 96",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97289417980"
       },
       "Rishon-LeTsiyon": {
-        "address": "14 Saharov Street",
+        "address": "Saharov Street 14",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97235363600"
       },
-      "Tel-Aviv": {
-        "address": "3 Hamelacha Street",
+      "Tel-Aviv-Hamelacha": {
+        "address": "Hamelacha Street 3",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97237588599"
       },
       "Ben-Gurion-International-Airport": {
-        "address": "Ben Gurion International Airport , Lod",
+        "address": "Ben Gurion International Airport, Lod",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97236058000"
       },
+      "Tel-Aviv-Hayarkon": {
+        "address": "Hayarkon Street 80",
+        "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
+        "phone": "+97236335252"
+      },
       "Tiberias": {
-        "address": "Hayarden Street",
+        "address": "Hayarden Street 71",
         "openhours": "Sun-Thu 08:00-18:00, Fri 08:00-13:00",
         "phone": "+97246666123"
       }
