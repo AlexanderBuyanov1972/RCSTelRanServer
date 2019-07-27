@@ -48,16 +48,16 @@ public class ControllerRCS {
     @CrossOrigin(origins = httpsUrl, allowedHeaders = allowed_headers)
     @PreAuthorize(PERMIT_ALL)
     @PostMapping(value = ConstantsHttps.ADD_JSON_LOCATION_BRANCHES)
-    Response getJsonLocationBranches() {
+    Response addJsonLocationBranches() {
         return iRCS.addJsonLocationBranches();
     }
 
     // ****************************getJsonLocationBranches*******************************************************
     @CrossOrigin(origins = httpsUrl, allowedHeaders = allowed_headers)
     @PreAuthorize(PERMIT_ALL)
-    @GetMapping(value = ConstantsHttps.GET_JSON_LOCATION_BRANCHES)
-    Response addJsonLocationBranches() {
-        return iRCS.getJsonLocationBranches();
+    @GetMapping(value = ConstantsHttps.GET_LOCATION_BRANCHES)
+    Response getLocationBranches() {
+        return iRCS.getLocationBranches();
     }
 
 

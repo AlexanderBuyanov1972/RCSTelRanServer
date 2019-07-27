@@ -1,11 +1,11 @@
 package com.telran.rentcompamyservice.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.telran.rentcompamyservice.dao.LocatonBranchesRepository;
+import com.telran.rentcompamyservice.dao.LocationBranchesRepository;
 import com.telran.rentcompamyservice.dao.ModelsRCSRepository;
 import com.telran.rentcompamyservice.dto.Response;
-import com.telran.rentcompamyservice.entities.for_calculation.LocationBranch;
 import com.telran.rentcompamyservice.entities.ModelRCS;
+import com.telran.rentcompamyservice.entities.for_calculation.LocationBranch;
 import com.telran.rentcompamyservice.entities.for_calculation.RequestForGettingPrice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,7 +29,7 @@ public class RCService implements IRentCompanyService {
     @Autowired
     ModelsRCSRepository modelsRCSRepository;
     @Autowired
-    LocatonBranchesRepository locatonBranchesRepository;
+    LocationBranchesRepository locationBranchesRepository;
 
     // ***************************************calculatePrice*************************************************
     @Override
@@ -67,39 +67,41 @@ public class RCService implements IRentCompanyService {
         response = new Response().setCode(goodCode).setTimestamp(currentDate).setContent("");
         String string = getStringFromJson(pathFileLocation);
         String newString = matcherStringLocationBranches(string);
-        List<LocationBranch> locationBranches = getListLocationBranchesFromString(newString);
-        locatonBranchesRepository.deleteAll();
-        locationBranches.forEach(x->locatonBranchesRepository.save(x));
+        locationBranchesRepository.deleteAll();
+        getListLocationBranchesFromString(newString).forEach(x -> locationBranchesRepository.save(x));
         return response.setMessage("OK");
     }
-
-    @Override
-    public Response getJsonLocationBranches() {
-        response = new Response().setCode(goodCode).setTimestamp(currentDate);
-        List<LocationBranch> list = (List<LocationBranch>) locatonBranchesRepository.findAll();
-        return response.setMessage("OK").setContent(list);
-    }
-
     private List<LocationBranch> getListLocationBranchesFromString(String newString) {
         List<LocationBranch> locationBranches = new ArrayList<>();
         String[] lines = newString.split(";");
-        for (int i = 0; i < lines.length - 1; i++){
-            lines[i] = "{\"city\":" +lines[i];
-            LocationBranch locationBranch = getLocationBranchFromString(lines[i]);
-            locationBranches.add(locationBranch);
+        for (int i = 0; i < lines.length; i++) {
+           String strLocationBranch = getStrLocationBranch(lines[i]);
+           LocationBranch locationBranch = getLocationBranchFromString(strLocationBranch);
+           locationBranches.add(locationBranch);
         }
         return locationBranches;
     }
-
-
-
+    private String getStrLocationBranch(String line) {
+        return "{\"city\":" + line + "}";
+    }
     private String matcherStringLocationBranches(String string) {
-        String str1 = string.replaceAll("[\\s]{2,}", "");
-        String str2 = str1.substring(15, str1.length()-3);
-        return str2.replace(": {", ",")
-                .replace("{","").replace(": ", ":").replaceAll("},", "};");
+        String str1 = string.substring(19, string.length() - 4).replaceAll("[\\s]{2,}", "");
+        String str2 = str1.replaceAll("\"openhours\": ", "")
+                .replace(": ",":")
+                .replace("}},{",";")
+                .replace(":{", ",")
+                .replace("{","").replace("}","");
+        return str2;
     }
 
+    // **************************************getLocationBranches*************************************************
+
+    @Override
+    public Response getLocationBranches() {
+        response = new Response().setCode(goodCode).setTimestamp(currentDate);
+        List<LocationBranch> list = (List<LocationBranch>) locationBranchesRepository.findAll();
+        return response.setMessage("OK").setContent(list);
+    }
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     private String getStringFromJson(String fileName) {
         File f = new File(fileName);
@@ -171,6 +173,7 @@ public class RCService implements IRentCompanyService {
         }
         return modelRCS;
     }
+
     private LocationBranch getLocationBranchFromString(String line) {
         ObjectMapper mapper = new ObjectMapper();
         LocationBranch locationBranch = null;
@@ -181,5 +184,35 @@ public class RCService implements IRentCompanyService {
         }
         return locationBranch;
     }
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//    // ***************************************addJsonLocationBranches*************************************************
+//    @Override
+//    public Response addJsonLocationBranches() {
+//        response = new Response().setCode(goodCode).setTimestamp(currentDate).setContent("");
+//        String string = getStringFromJson(pathFileLocation);
+//        String newString = matcherStringLocationBranches(string);
+//        List<LocationBranch> locationBranches = getListLocationBranchesFromString(newString);
+//        locatonBranchesRepository.deleteAll();
+//        locationBranches.forEach(x->locatonBranchesRepository.save(x));
+//        return response.setMessage("OK");
+//    }
+//private String matcherStringLocationBranches(String string) {
+//    String str1 = string.replaceAll("[\\s]{2,}", "");
+//    String str2 = str1.substring(15, str1.length()-3);
+//    return str2.replace(": {", ",")
+//            .replace("{","").replace(": ", ":").replaceAll("},", "};");
+//}
+//private List<LocationBranch> getListLocationBranchesFromString(String newString) {
+//    List<LocationBranch> locationBranches = new ArrayList<>();
+//    String[] lines = newString.split(";");
+//    for (int i = 0; i < lines.length - 1; i++) {
+//        lines[i] = "{\"city\":" + lines[i];
+//        LocationBranch locationBranch = getLocationBranchFromString(lines[i]);
+//        locationBranches.add(locationBranch);
+//    }
+//    return locationBranches;
+//}
 
 }
