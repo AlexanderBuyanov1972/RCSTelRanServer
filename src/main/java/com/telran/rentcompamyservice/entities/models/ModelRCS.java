@@ -1,4 +1,4 @@
-package com.telran.rentcompamyservice.entities;
+package com.telran.rentcompamyservice.entities.models;
 
 import javax.persistence.*;
 

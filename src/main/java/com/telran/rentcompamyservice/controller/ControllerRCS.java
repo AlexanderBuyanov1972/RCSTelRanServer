@@ -2,7 +2,7 @@ package com.telran.rentcompamyservice.controller;
 
 import com.telran.rentcompamyservice.dto.ConstantsHttps;
 import com.telran.rentcompamyservice.dto.Response;
-import com.telran.rentcompamyservice.entities.for_calculation.RequestForGettingPrice;
+import com.telran.rentcompamyservice.entities.calculation.RequestForGettingPrice;
 import com.telran.rentcompamyservice.service.IRentCompanyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -55,9 +55,9 @@ public class ControllerRCS {
     // ****************************getJsonLocationBranches*******************************************************
     @CrossOrigin(origins = httpsUrl, allowedHeaders = allowed_headers)
     @PreAuthorize(PERMIT_ALL)
-    @GetMapping(value = ConstantsHttps.GET_LOCATION_BRANCHES)
+    @GetMapping(value = ConstantsHttps.GET_JSON_LOCATION_BRANCHES)
     Response getLocationBranches() {
-        return iRCS.getLocationBranches();
+        return iRCS.getJsonLocationBranches();
     }
 
 

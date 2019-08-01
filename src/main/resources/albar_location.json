@@ -1,394 +1,370 @@
 {
-  "Locations": [
+  "id": "israel",
+  "locations": [
     {
-      "Afula": {
-        "address": "Menachem Begin Street 70",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97246204500"
-      }
+      "name": "Afula",
+      "address": "Menachem Begin Street 70",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97246204500",
+      "googleMap": ""
     },
     {
-      "Ashdod": {
-        "address": "Haorgim Street 7",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97286228815"
-      }
+      "name": "Ashdod",
+      "address": "Haorgim Street 7",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97286228815"
     },
     {
-      "Beer-Sheva": {
-        "address": "Itzhak Nafha Street 18",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97286311163"
-      }
+      "name": "Beer-Sheva",
+      "address": "Itzhak Nafha Street 18",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97286311163"
     },
     {
-      "Beit-Shemesh": {
-        "address": "Nahar Hayarden Street 1",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97228010047"
-      }
+      "name": "Beit-Shemesh",
+      "address": "Nahar Hayarden Street 1",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97228010047"
     },
     {
-      "Bnei-Brak-Kahanman": {
-        "address": "Kahanman Street 106",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97236207300"
-      }
+      "name": "Bnei-Brak-Kahanman",
+      "address": "Kahanman Street 106",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97236207300"
     },
     {
-      "Bnei-Brak-Mivtza": {
-        "address": "Mivtza Kadesh Street 64 ",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97236160700"
-      }
+      "name": "Bnei-Brak-Mivtza",
+      "address": "Mivtza Kadesh Street 64 ",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97236160700"
     },
     {
-      "Eilat": {
-        "address": "Sheshet Hayamim Street 3",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97286998877"
-      }
+      "name": "Eilat",
+      "address": "Sheshet Hayamim Street 3",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97286998877"
     },
     {
-      "Eilat-Ramon": {
-        "address": "Timna Vally, Ramon International Airport",
-        "openhours": {
-          "sunday": "05:30-23:00",
-          "monday": "05:30-23:00",
-          "tuesday": "05:30-23:00",
-          "wednesday": "05:30-23:00",
-          "thursday": "05:30-23:00",
-          "friday": "05:30-17:00",
-          "saturday": "close"
-        },
-        "phone": "+97286239300"
-      }
+      "name": "Eilat Ramon",
+      "address": "Timna Vally, Ramon International Airport",
+      "openhours": {
+        "sunday": "05:30-23:00",
+        "monday": "05:30-23:00",
+        "tuesday": "05:30-23:00",
+        "wednesday": "05:30-23:00",
+        "thursday": "05:30-23:00",
+        "friday": "05:30-17:00",
+        "saturday": "close"
+      },
+      "phone": "+97286239300"
     },
     {
-      "El'ad": {
-        "address": "Rabbi Shimon Ben Shetah 10",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97239501500"
-      }
+      "name": "El'ad",
+      "address": "Rabbi Shimon Ben Shetah 10",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97239501500"
     },
     {
-      "Haifa": {
-        "address": "Haashlag Street 27",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97248409333"
-      }
+      "name": "Haifa",
+      "address": "Haashlag Street 27",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97248409333"
     },
     {
-      "Herzeliya": {
-        "address": "Hamenofim Street 9",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97297666800"
-      }
+      "name": "Herzeliya",
+      "address": "Hamenofim Street 9",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97297666800"
     },
     {
-      "Jerusalem-King-Daviv": {
-        "address": "King David Street 19",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97225001800"
-      }
+      "name": "Jerusalem-King-Daviv",
+      "address": "King David Street 19",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97225001800"
     },
     {
-      "Jerusalem-Shamgar": {
-        "address": "Shamgar Street 21",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97226339666"
-      }
+      "name": "Jerusalem-Shamgar",
+      "address": "Shamgar Street 21",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97226339666"
     },
     {
-      "Jerusalem-Moshe-Baran": {
-        "address": "Moshe Baram Street 26",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97226482896"
-      }
+      "name": "Jerusalem-Moshe-Baran",
+      "address": "Moshe Baram Street 26",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97226482896"
     },
     {
-      "Kfar-Saba": {
-        "address": "Ha'Taas Street 17",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97297884888"
-      }
+      "name": "Kfar-Saba",
+      "address": "Ha'Taas Street 17",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97297884888"
     },
     {
-      "Kiryat-Shmone": {
-        "address": "Hayarden Street 1",
-        "openhours": {
-          "sunday": "08:00-17:30",
-          "monday": "08:00-17:30",
-          "tuesday": "08:00-17:30",
-          "wednesday": "08:00-17:30",
-          "thursday": "08:00-17:30",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97246665959"
-      }
+      "name": "Kiryat-Shmone",
+      "address": "Hayarden Street 1",
+      "openhours": {
+        "sunday": "08:00-17:30",
+        "monday": "08:00-17:30",
+        "tuesday": "08:00-17:30",
+        "wednesday": "08:00-17:30",
+        "thursday": "08:00-17:30",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97246665959"
     },
     {
-      "Nes-Tziona": {
-        "address": "Hapatish Street 10",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97286991340"
-      }
+      "name": "Nes-Tziona",
+      "address": "Hapatish Street 10",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97286991340"
     },
     {
-      "Natanya": {
-        "address": "Ussishkin Street 1",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97298612000"
-      }
+      "name": "Natanya",
+      "address": "Ussishkin Street 1",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97298612000"
     },
     {
-      "Netivot": {
-        "address": "Habonim Street 13",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97286888711"
-      }
+      "name": "Netivot",
+      "address": "Habonim Street 13",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97286888711"
     },
     {
-      "Petach-Tikva": {
-        "address": "Jabotinski Street 82",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97236331440"
-      }
+      "name": "Petach-Tikva",
+      "address": "Jabotinski Street 82",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97236331440"
     },
     {
-      "Rehovot": {
-        "address": "Herzl Street 96",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97289417980"
-      }
+      "name": "Rehovot",
+      "address": "Herzl Street 96",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97289417980"
     },
     {
-      "Rishon-LeTsiyon": {
-        "address": "Saharov Street 14",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97235363600"
-      }
+      "name": "Rishon-LeTsiyon",
+      "address": "Saharov Street 14",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97235363600"
     },
     {
-      "Tel-Aviv-Hamelacha": {
-        "address": "Hamelacha Street 3",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97235363600"
-      }
+      "name": "Tel-Aviv-Hamelacha",
+      "address": "Hamelacha Street 3",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97235363600"
     },
     {
-      "Ben-Gurion-International-Airport": {
-        "address": "Ben Gurion International Airport, Lod",
-        "openhours": {
-          "sunday": "00:00-24:00",
-          "monday": "00:00-24:00",
-          "tuesday": "00:00-24:00",
-          "wednesday": "00:00-24:00",
-          "thursday": "00:00-24:00",
-          "friday": "00:00-24:00",
-          "saturday": "00:00-24:00"
-        },
-        "phone": "+97236058000"
-      }
+      "name": "Ben-Gurion-International-Airport",
+      "address": "Ben Gurion International Airport, Lod",
+      "openhours": {
+        "sunday": "00:00-24:00",
+        "monday": "00:00-24:00",
+        "tuesday": "00:00-24:00",
+        "wednesday": "00:00-24:00",
+        "thursday": "00:00-24:00",
+        "friday": "00:00-24:00",
+        "saturday": "00:00-24:00"
+      },
+      "phone": "+97236058000"
     },
     {
-      "Tel-Aviv-Hayarkon": {
-        "address": "Hayarkon Street 80",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97236335252"
-      }
+      "name": "Tel-Aviv-Hayarkon",
+      "address": "Hayarkon Street 80",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97236335252"
     },
     {
-      "Tiberias": {
-        "address": "Hayarden Street 71",
-        "openhours": {
-          "sunday": "08:00-18:00",
-          "monday": "08:00-18:00",
-          "tuesday": "08:00-18:00",
-          "wednesday": "08:00-18:00",
-          "thursday": "08:00-18:00",
-          "friday": "08:00-13:00",
-          "saturday": "close"
-        },
-        "phone": "+97246666123"
-      }
+      "name": "Tiberias",
+      "address": "Hayarden Street 71",
+      "openhours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-13:00",
+        "saturday": "close"
+      },
+      "phone": "+97246666123"
     }
   ]
 }

@@ -1,4 +1,4 @@
-package com.telran.rentcompamyservice.entities.for_calculation;
+package com.telran.rentcompamyservice.entities.calculation;
 
 public class Extras {
     private Integer childBooster;

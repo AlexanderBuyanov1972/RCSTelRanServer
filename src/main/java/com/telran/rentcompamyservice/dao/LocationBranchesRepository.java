@@ -1,7 +1,8 @@
 package com.telran.rentcompamyservice.dao;
 
-import com.telran.rentcompamyservice.entities.for_calculation.LocationBranch;
-import org.springframework.data.repository.CrudRepository;
 
-public interface LocationBranchesRepository extends CrudRepository<LocationBranch, String> {
+import com.telran.rentcompamyservice.entities.locations.Locations;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface LocationBranchesRepository extends MongoRepository<Locations, String> {
 }
